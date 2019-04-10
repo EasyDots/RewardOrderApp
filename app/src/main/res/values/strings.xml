@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">悬赏令</string>
+    <string name="title_activity_main_nav">主界面</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">悬赏令</string>
+    <string name="title_notifications">消息</string>
+    <string name="title_my">我的</string>
+</resources>
