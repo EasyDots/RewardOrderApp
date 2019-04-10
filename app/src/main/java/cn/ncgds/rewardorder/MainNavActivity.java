@@ -1,4 +1,4 @@
-package cn.ncgds.andapp;
+package cn.ncgds.rewardorder;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

@@ -1,4 +1,4 @@
-package cn.ncgds.andapp;
+package cn.ncgds.rewardorder;
 
 import android.app.Application;
 import android.content.Context;

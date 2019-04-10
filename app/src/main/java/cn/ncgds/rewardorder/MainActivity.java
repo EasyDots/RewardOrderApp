@@ -1,4 +1,4 @@
-package cn.ncgds.andapp;
+package cn.ncgds.rewardorder;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

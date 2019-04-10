@@ -1,4 +1,4 @@
-package cn.ncgds.andapp;
+package cn.ncgds.rewardorder;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
-    package="cn.ncgds.andapp">
+    package="cn.ncgds.rewardorder">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
@@ -17,7 +17,7 @@
     <dist:module dist:instant="true" />
 
     <application
-        android:name=".MyApplication"
+        android:name="cn.ncgds.rewardorder.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -27,7 +27,7 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
         <activity
-            android:name=".MainActivity"
+            android:name="cn.ncgds.rewardorder.MainActivity"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,7 +51,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize|locale"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name=".MainNavActivity"
+            android:name="cn.ncgds.rewardorder.MainNavActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:label="@string/title_activity_main_nav"></activity>
     </application>
