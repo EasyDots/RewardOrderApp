@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.tencent.bugly.Bugly;
@@ -42,6 +43,7 @@ public class MainActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(this, "new version", Toast.LENGTH_SHORT).show();
         Bugly.init(getApplicationContext(), "46ea36a600", true);
         MyFragmentStatePager adpter = new MyFragmentStatePager(getSupportFragmentManager());
         ColorAnimationView colorAnimationView = (ColorAnimationView) findViewById(R.id.ColorAnimationView);
