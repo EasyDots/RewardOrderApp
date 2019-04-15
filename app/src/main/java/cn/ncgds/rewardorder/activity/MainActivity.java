@@ -1,4 +1,4 @@
-package cn.ncgds.rewardorder;
+package cn.ncgds.rewardorder.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.tencent.bugly.Bugly;
 
+import cn.ncgds.rewardorder.R;
 import cn.taurusxi.guidebackgroundcoloranimation.library.ColorAnimationView;
 
 public class MainActivity

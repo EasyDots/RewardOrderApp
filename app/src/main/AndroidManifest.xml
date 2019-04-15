@@ -27,7 +27,7 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
         <activity
-            android:name="cn.ncgds.rewardorder.MainActivity"
+            android:name="cn.ncgds.rewardorder.activity.MainActivity"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,7 +51,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize|locale"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name="cn.ncgds.rewardorder.MainNavActivity"
+            android:name="cn.ncgds.rewardorder.activity.MainNavActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:label="@string/title_activity_main_nav"></activity>
     </application>
