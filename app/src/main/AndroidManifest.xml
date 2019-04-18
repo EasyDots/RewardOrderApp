@@ -3,7 +3,6 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
     package="cn.ncgds.rewardorder">
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -17,7 +16,7 @@
     <dist:module dist:instant="true" />
 
     <application
-        android:name="cn.ncgds.rewardorder.MyApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -27,13 +26,9 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
         <activity
-            android:name="cn.ncgds.rewardorder.activity.MainActivity"
+            android:name=".activity.MainActivity"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <provider
@@ -51,9 +46,16 @@
             android:configChanges="keyboardHidden|orientation|screenSize|locale"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name="cn.ncgds.rewardorder.activity.MainNavActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:label="@string/title_activity_main_nav"></activity>
+            android:name=".activity.MainNavActivity"
+            android:label="@string/title_activity_main_nav"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.TestDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

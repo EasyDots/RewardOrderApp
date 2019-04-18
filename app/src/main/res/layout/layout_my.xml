@@ -36,7 +36,7 @@
                 android:text="足迹" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnPay"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:background="@drawable/circle_button"
