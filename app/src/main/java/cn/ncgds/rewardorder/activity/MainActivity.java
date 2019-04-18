@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.qmuiteam.qmui.arch.QMUISwipeBackActivityManager;
 import com.tencent.bugly.Bugly;
 
 import cn.ncgds.rewardorder.R;
@@ -43,8 +44,9 @@ public class MainActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        QMUISwipeBackActivityManager.init(this.getApplication());
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "new version", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "day0417", Toast.LENGTH_SHORT).show();
         Bugly.init(getApplicationContext(), "46ea36a600", true);
         MyFragmentStatePager adpter = new MyFragmentStatePager(getSupportFragmentManager());
         ColorAnimationView colorAnimationView = (ColorAnimationView) findViewById(R.id.ColorAnimationView);

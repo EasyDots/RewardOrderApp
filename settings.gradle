@@ -1,1 +1,1 @@
-include ':app', ':bugly_crashreport_upgrade-1.3.5', ':viewpagebganim'
+include ':app', ':bugly_crashreport_upgrade-1.3.5', ':viewpagebganim', ':epay-sdk-3.3.9'
